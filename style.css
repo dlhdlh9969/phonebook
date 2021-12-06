@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Single+Day&display=swap');
+
+* {
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+}
+
+a{text-decoration: none}
+
+a:visited{color:black}
+
+a:link{color:black}
+
+.divhead /* 헤더 영역 div 설정*/ 
+{
+	border: 2px solid gray;
+    width: 1000px;
+    height:160px;
+    padding-left:30px;
+    padding-top:2px;
+    margin:auto;
+    margin-bottom:5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("img/bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    
+}
+
+.divhead:hover
+{
+	border: 3px solid black;
+	padding-left:29px;
+	padding-top:1px;
+}
+
+.header_title
+{
+    font-family: impact;
+    font-size: 45px;
+}
+
+.header_title:first-letter
+{
+    color: red;
+    font-size: 55
+}
+
+.header_version
+{
+	font-style: italic;    
+}
+
+.header_version:first-letter
+{
+    color: blue;
+    
+}
+
+.divbody /* 헤더 영역 div 설정*/ 
+{
+	/* border: 2px solid blue;
+    height:auto;*/
+    margin:auto; 
+    width: 1000px;
+    
+}
+
+.divaside /* aside 영역 div 설정*/ 
+{
+	border: 2px solid gray;
+    width: 250px;
+    height:auto;
+    padding-left: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    margin:auto;
+    margin-bottom:5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 10px;
+}
+
+.divaside:hover /* aside 영역 div 설정*/ 
+{
+	border: 3px solid black;
+	padding-left:9px;
+	padding-top:9px;
+	padding-bottom:9px;
+
+}
+    
+.divsection /* section 영역 div 설정*/ 
+{
+	border: 2px solid gray;
+    width: 745px;
+    height:inherit;
+    padding-left: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    margin:auto;
+    margin-bottom:5px;
+    float: right;
+    border-radius: 10px;
+   	box-sizing: border-box;
+    
+}
+
+.divsection:hover
+{
+	border: 3px solid black;
+	padding-left:9px;
+	padding-top:9px;
+	padding-bottom:9px;
+}
+.divfooter /* footer 영역 div 설정*/ 
+{
+	border: 2px solid gray;
+    width: 1000px;
+    height:auto;
+	padding-top:2px;
+	padding-left:10px;
+	padding-right:10px;    
+    margin:auto;
+    margin-bottom:5px;
+    box-sizing: border-box;
+    clear:both;
+    border-radius: 10px;
+}
+
+.divfooter:hover
+{
+	border: 3px solid black;
+	padding-top:1px;
+	padding-left:9px;
+	padding-right:9px;
+}
+
+li {
+	list-style-type: circle;
+}
+li:hover {
+	list-style-type: disc;
+}
+   
+.copy /* 카피라이트 */
+{
+    text-align: right;
+    font-style: italic;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.big
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Single Day', cursive;
+}
+
+
+
+section
+{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 15px;
+}
+
+input
+{
+	width:98%;
+	border: 1.5px solid;
+	border-radius: 8px;
+}
+
+textarea {
+	width:98%;
+	border-radius: 8px;
+	border: 1.5px solid;
+}
+
+::placeholder
+{
+	font-size: 17px;
+	color: blue;
+	opacity: 70%;
+	
+}
+
+.btinsert
+{
+	border: 1.5px solid;
+	border-radius : 8px; 
+}
+
+.btinsert:hover
+{
+	background-color: #86ffbe;
+}
+
+.btedit
+{
+	border: 1.5px solid;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.btedit:hover
+{
+	background-color: #baa9ff;
+}
+
+.btdelete
+{
+	border: 1.5px solid;
+	border-radius: 8px;
+	padding: 5px;	
+}
+
+.btcancel
+{
+	border: 1.5px solid;
+	border-radius: 8px;
+	padding: 5px;	
+}
+.btcancel:hover
+{
+	background-color: #ff875a;
+}
+
+.btdelete:hover
+{
+	background-color: #ff9ff8;
+}
+
+.aliright
+{
+	text-align:right;
+	padding-right: 7px;	
+}
+
+.hide
+{
+	display: none;
+}
