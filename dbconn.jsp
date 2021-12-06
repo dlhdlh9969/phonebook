@@ -11,7 +11,7 @@ ResultSet rs = null;	// 쿼리 결과를 받아오기 위한 ResultSet 객체. h
 String driver = "com.mysql.cj.jdbc.Driver";	// jdbc 드라이버
 
 //DB 종류에 따라 주소 밑 옵션 값이 조금씩 달라질 수 있다. 
-String url = "jdbc:mysql://localhost:3306/testdb?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
+String url = "jdbc:mysql://192.168.0.3:3306/testdb?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
 
 String uid = "testuser";	//db계정
 String upw = "11223344";	//계정 비번
